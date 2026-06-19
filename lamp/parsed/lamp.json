@@ -1,0 +1,537 @@
+{
+  "10.42.0.1:67 <-> 10.42.0.184:68 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 67,
+    "endpoint_b_ip": "10.42.0.184",
+    "endpoint_b_port": 68,
+    "target_ip": "10.42.0.184",
+    "packet_count": 4,
+    "first_seen_relative_seconds": 16.15531301498413,
+    "protocols_used": [
+      "DHCP",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DHCP"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 16.15531301498413
+      },
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 58.916494846343994
+      }
+    ]
+  },
+  "10.42.0.1:53 <-> 10.42.0.184:23389 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 53,
+    "endpoint_b_ip": "10.42.0.184",
+    "endpoint_b_port": 23389,
+    "target_ip": "10.42.0.184",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 16.84855008125305,
+    "protocols_used": [
+      "DNS",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DNS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 16.84855008125305
+      }
+    ]
+  },
+  "10.42.0.184:51417 <-> 3.123.15.134:4433 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 51417,
+    "endpoint_b_ip": "3.123.15.134",
+    "endpoint_b_port": 4433,
+    "target_ip": "10.42.0.184",
+    "packet_count": 21,
+    "first_seen_relative_seconds": 16.88128900527954,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 16.88128900527954
+      }
+    ]
+  },
+  "10.42.0.1:53 <-> 10.42.0.184:5302 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 53,
+    "endpoint_b_ip": "10.42.0.184",
+    "endpoint_b_port": 5302,
+    "target_ip": "10.42.0.184",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 17.40293002128601,
+    "protocols_used": [
+      "DNS",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DNS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 17.40293002128601
+      }
+    ]
+  },
+  "10.42.0.184:51418 <-> 3.67.116.46:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 51418,
+    "endpoint_b_ip": "3.67.116.46",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.184",
+    "packet_count": 24,
+    "first_seen_relative_seconds": 17.42520499229431,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 17.42520499229431
+      }
+    ]
+  },
+  "10.42.0.1:53 <-> 10.42.0.184:54600 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 53,
+    "endpoint_b_ip": "10.42.0.184",
+    "endpoint_b_port": 54600,
+    "target_ip": "10.42.0.184",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 19.189462184906006,
+    "protocols_used": [
+      "DNS",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DNS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 19.189462184906006
+      }
+    ]
+  },
+  "10.42.0.184:51419 <-> 18.185.31.196:8886 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 51419,
+    "endpoint_b_ip": "18.185.31.196",
+    "endpoint_b_port": 8886,
+    "target_ip": "10.42.0.184",
+    "packet_count": 30,
+    "first_seen_relative_seconds": 19.21450901031494,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 19.21450901031494
+      }
+    ]
+  },
+  "10.42.0.184:65449 <-> 255.255.255.255:6667 [UDP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 65449,
+    "endpoint_b_ip": "255.255.255.255",
+    "endpoint_b_port": 6667,
+    "target_ip": "10.42.0.184",
+    "packet_count": 3,
+    "first_seen_relative_seconds": 21.42696499824524,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 21.42696499824524
+      }
+    ]
+  },
+  "10.42.0.184:6668 <-> 10.42.0.243:55514 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 6668,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 55514,
+    "target_ip": "10.42.0.184",
+    "packet_count": 17,
+    "first_seen_relative_seconds": 22.450683116912842,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 22.450683116912842
+      }
+    ]
+  },
+  "10.42.0.184:51420 <-> 3.67.116.46:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 51420,
+    "endpoint_b_ip": "3.67.116.46",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.184",
+    "packet_count": 21,
+    "first_seen_relative_seconds": 28.549451112747192,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 28.549451112747192
+      }
+    ]
+  },
+  "10.42.0.184:51421 <-> 3.67.116.46:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 51421,
+    "endpoint_b_ip": "3.67.116.46",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.184",
+    "packet_count": 21,
+    "first_seen_relative_seconds": 28.849141120910645,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 28.849141120910645
+      }
+    ]
+  },
+  "10.42.0.184:51422 <-> 3.67.116.46:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 51422,
+    "endpoint_b_ip": "3.67.116.46",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.184",
+    "packet_count": 21,
+    "first_seen_relative_seconds": 29.497586011886597,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_pair.json",
+        "first_seen_relative_seconds": 29.497586011886597
+      }
+    ]
+  },
+  "10.42.0.184:54848 <-> 3.120.92.134:8886 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 54848,
+    "endpoint_b_ip": "3.120.92.134",
+    "endpoint_b_port": 8886,
+    "target_ip": "10.42.0.184",
+    "packet_count": 8,
+    "first_seen_relative_seconds": 20.092222929000854,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 20.092222929000854
+      }
+    ]
+  },
+  "10.42.0.1:53 <-> 10.42.0.184:43785 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 53,
+    "endpoint_b_ip": "10.42.0.184",
+    "endpoint_b_port": 43785,
+    "target_ip": "10.42.0.184",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 59.02878189086914,
+    "protocols_used": [
+      "DNS",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DNS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 59.02878189086914
+      }
+    ]
+  },
+  "10.42.0.184:60964 <-> 3.120.92.134:8886 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 60964,
+    "endpoint_b_ip": "3.120.92.134",
+    "endpoint_b_port": 8886,
+    "target_ip": "10.42.0.184",
+    "packet_count": 129,
+    "first_seen_relative_seconds": 3.3544020652770996,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_settings.json",
+        "first_seen_relative_seconds": 3.3544020652770996
+      },
+      {
+        "file": "lamp_remote.json",
+        "first_seen_relative_seconds": 5.676877975463867
+      },
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 59.05168795585632
+      }
+    ]
+  },
+  "10.42.0.184:57059 <-> 255.255.255.255:6667 [UDP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 57059,
+    "endpoint_b_ip": "255.255.255.255",
+    "endpoint_b_port": 6667,
+    "target_ip": "10.42.0.184",
+    "packet_count": 14,
+    "first_seen_relative_seconds": 0.0,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_remote.json",
+        "first_seen_relative_seconds": 0.0
+      },
+      {
+        "file": "lamp_settings.json",
+        "first_seen_relative_seconds": 1.1797630786895752
+      },
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 61.99284291267395
+      }
+    ]
+  },
+  "10.42.0.1:53 <-> 10.42.0.184:63039 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 53,
+    "endpoint_b_ip": "10.42.0.184",
+    "endpoint_b_port": 63039,
+    "target_ip": "10.42.0.184",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 62.02803301811218,
+    "protocols_used": [
+      "DNS",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DNS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 62.02803301811218
+      }
+    ]
+  },
+  "10.42.0.184:60965 <-> 3.67.116.46:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 60965,
+    "endpoint_b_ip": "3.67.116.46",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.184",
+    "packet_count": 21,
+    "first_seen_relative_seconds": 62.05432605743408,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 62.05432605743408
+      }
+    ]
+  },
+  "10.42.0.184:60966 <-> 3.67.116.46:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 60966,
+    "endpoint_b_ip": "3.67.116.46",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.184",
+    "packet_count": 21,
+    "first_seen_relative_seconds": 62.35382390022278,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 62.35382390022278
+      }
+    ]
+  },
+  "10.42.0.184:60967 <-> 3.67.116.46:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 60967,
+    "endpoint_b_ip": "3.67.116.46",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.184",
+    "packet_count": 21,
+    "first_seen_relative_seconds": 62.649340867996216,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 62.649340867996216
+      }
+    ]
+  },
+  "10.42.0.184:60968 <-> 3.67.116.46:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.184",
+    "endpoint_a_port": 60968,
+    "endpoint_b_ip": "3.67.116.46",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.184",
+    "packet_count": 21,
+    "first_seen_relative_seconds": 66.80476689338684,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "lamp_reboot.json",
+        "first_seen_relative_seconds": 66.80476689338684
+      }
+    ]
+  }
+}

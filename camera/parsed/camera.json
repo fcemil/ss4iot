@@ -1,0 +1,2479 @@
+{
+  "10.42.0.1:None <-> 10.42.0.232:None [IP_PROTO_1]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": null,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": null,
+    "target_ip": "10.42.0.232",
+    "packet_count": 15,
+    "first_seen_relative_seconds": 13.028155088424683,
+    "protocols_used": [
+      "ETH",
+      "ICMP",
+      "IP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > ICMP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_sound.json",
+        "first_seen_relative_seconds": 13.028155088424683
+      },
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 55.688868045806885
+      },
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 66.90055298805237
+      }
+    ]
+  },
+  "10.42.0.1:67 <-> 10.42.0.232:68 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 67,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 68,
+    "target_ip": "10.42.0.232",
+    "packet_count": 8,
+    "first_seen_relative_seconds": 54.722660064697266,
+    "protocols_used": [
+      "DHCP",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DHCP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 54.722660064697266
+      },
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 66.90074491500854
+      }
+    ]
+  },
+  "10.42.0.1:53 <-> 10.42.0.232:38528 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 53,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 38528,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 71.78417491912842,
+    "protocols_used": [
+      "DNS",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DNS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 71.78417491912842
+      }
+    ]
+  },
+  "10.42.0.232:51364 <-> 15.197.251.9:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 51364,
+    "endpoint_b_ip": "15.197.251.9",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 71.8190348148346,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 71.8190348148346
+      }
+    ]
+  },
+  "10.42.0.232:54066 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54066,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 30,
+    "first_seen_relative_seconds": 74.46165800094604,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 74.46165800094604
+      }
+    ]
+  },
+  "10.42.0.232:47339 <-> 255.255.255.255:6667 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 47339,
+    "endpoint_b_ip": "255.255.255.255",
+    "endpoint_b_port": 6667,
+    "target_ip": "10.42.0.232",
+    "packet_count": 10,
+    "first_seen_relative_seconds": 74.83181881904602,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 74.83181881904602
+      }
+    ]
+  },
+  "10.42.0.232:54068 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54068,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 25,
+    "first_seen_relative_seconds": 78.1374659538269,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 78.1374659538269
+      }
+    ]
+  },
+  "10.42.0.232:54070 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54070,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 17,
+    "first_seen_relative_seconds": 78.55864787101746,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 78.55864787101746
+      }
+    ]
+  },
+  "10.42.0.232:40943 <-> 52.28.190.255:8883 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 40943,
+    "endpoint_b_ip": "52.28.190.255",
+    "endpoint_b_port": 8883,
+    "target_ip": "10.42.0.232",
+    "packet_count": 103,
+    "first_seen_relative_seconds": 79.42627000808716,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 79.42627000808716
+      }
+    ]
+  },
+  "10.42.0.232:54072 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54072,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 82.27921080589294,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 82.27921080589294
+      }
+    ]
+  },
+  "10.42.0.232:54074 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54074,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 83.14339089393616,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 83.14339089393616
+      }
+    ]
+  },
+  "10.42.0.232:54076 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54076,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 25,
+    "first_seen_relative_seconds": 83.6690719127655,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 83.6690719127655
+      }
+    ]
+  },
+  "10.42.0.232:54078 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54078,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 83.93388986587524,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 83.93388986587524
+      }
+    ]
+  },
+  "10.42.0.232:6668 <-> 10.42.0.243:44576 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 6668,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 44576,
+    "target_ip": "10.42.0.232",
+    "packet_count": 100,
+    "first_seen_relative_seconds": 85.09779691696167,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "IPDC",
+      "TCP",
+      "_WS.MALFORMED"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > IPDC",
+      "ETH > IP > TCP > DATA > IPDC > IPDC > IPDC > IPDC",
+      "ETH > IP > TCP > DATA > IPDC > IPDC > _WS.MALFORMED",
+      "ETH > IP > TCP > DATA > IPDC > IPDC > _WS.MALFORMED > IPDC > _WS.MALFORMED",
+      "ETH > IP > TCP > DATA > IPDC > _WS.MALFORMED",
+      "ETH > IP > TCP > DATA > IPDC > _WS.MALFORMED > IPDC",
+      "ETH > IP > TCP > DATA > IPDC > _WS.MALFORMED > IPDC > IPDC",
+      "ETH > IP > TCP > DATA > IPDC > _WS.MALFORMED > IPDC > IPDC > _WS.MALFORMED",
+      "ETH > IP > TCP > DATA > IPDC > _WS.MALFORMED > IPDC > _WS.MALFORMED > IPDC"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 85.09779691696167
+      }
+    ]
+  },
+  "10.42.0.232:54080 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54080,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 36,
+    "first_seen_relative_seconds": 86.09781384468079,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 86.09781384468079
+      }
+    ]
+  },
+  "10.42.0.232:54082 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54082,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 88.09455299377441,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 88.09455299377441
+      }
+    ]
+  },
+  "10.42.0.232:54084 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54084,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 25,
+    "first_seen_relative_seconds": 93.9843590259552,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 93.9843590259552
+      }
+    ]
+  },
+  "10.42.0.232:54086 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54086,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 93.98743796348572,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 93.98743796348572
+      }
+    ]
+  },
+  "10.42.0.232:54088 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54088,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 21,
+    "first_seen_relative_seconds": 97.85984492301941,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 97.85984492301941
+      }
+    ]
+  },
+  "10.42.0.232:54090 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54090,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 35,
+    "first_seen_relative_seconds": 97.99058985710144,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 97.99058985710144
+      }
+    ]
+  },
+  "10.42.0.232:54092 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54092,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 35,
+    "first_seen_relative_seconds": 98.0149278640747,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 98.0149278640747
+      }
+    ]
+  },
+  "10.42.0.232:54094 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54094,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 27,
+    "first_seen_relative_seconds": 99.01528692245483,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 99.01528692245483
+      }
+    ]
+  },
+  "10.42.0.232:49811 <-> 239.255.255.250:1900 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 49811,
+    "endpoint_b_ip": "239.255.255.250",
+    "endpoint_b_port": 1900,
+    "target_ip": "10.42.0.232",
+    "packet_count": 4,
+    "first_seen_relative_seconds": 99.35285687446594,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "SSDP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > SSDP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 99.35285687446594
+      }
+    ]
+  },
+  "10.42.0.232:58051 <-> 3.121.21.6:3478 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 58051,
+    "endpoint_b_ip": "3.121.21.6",
+    "endpoint_b_port": 3478,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 100.33899092674255,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 100.33899092674255
+      }
+    ]
+  },
+  "10.42.0.232:34851 <-> 52.58.232.198:1443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 34851,
+    "endpoint_b_ip": "52.58.232.198",
+    "endpoint_b_port": 1443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 86,
+    "first_seen_relative_seconds": 100.42862296104431,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 100.42862296104431
+      }
+    ]
+  },
+  "10.42.0.232:58165 <-> 54.36.112.8:3478 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 58165,
+    "endpoint_b_ip": "54.36.112.8",
+    "endpoint_b_port": 3478,
+    "target_ip": "10.42.0.232",
+    "packet_count": 83,
+    "first_seen_relative_seconds": 100.42926287651062,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 100.42926287651062
+      }
+    ]
+  },
+  "10.42.0.232:58051 <-> 10.42.0.243:48273 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 58051,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 48273,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2370,
+    "first_seen_relative_seconds": 100.77424097061157,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA",
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 100.77424097061157
+      }
+    ]
+  },
+  "10.42.0.232:58051 <-> 10.42.0.243:43131 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 58051,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 43131,
+    "target_ip": "10.42.0.232",
+    "packet_count": 13,
+    "first_seen_relative_seconds": 100.77445101737976,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 100.77445101737976
+      }
+    ]
+  },
+  "10.42.0.232:58051 <-> 84.104.3.181:48273 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 58051,
+    "endpoint_b_ip": "84.104.3.181",
+    "endpoint_b_port": 48273,
+    "target_ip": "10.42.0.232",
+    "packet_count": 12,
+    "first_seen_relative_seconds": 100.80835700035095,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 100.80835700035095
+      }
+    ]
+  },
+  "10.42.0.232:58051 <-> 54.36.112.8:53092 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 58051,
+    "endpoint_b_ip": "54.36.112.8",
+    "endpoint_b_port": 53092,
+    "target_ip": "10.42.0.232",
+    "packet_count": 12,
+    "first_seen_relative_seconds": 100.8086040019989,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 100.8086040019989
+      }
+    ]
+  },
+  "10.42.0.1:53 <-> 10.42.0.232:50929 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 53,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 50929,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 106.82428789138794,
+    "protocols_used": [
+      "DNS",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DNS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 106.82428789138794
+      }
+    ]
+  },
+  "10.42.0.232:54096 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54096,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 106.90094780921936,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 106.90094780921936
+      }
+    ]
+  },
+  "10.42.0.232:55840 <-> 52.219.169.118:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 55840,
+    "endpoint_b_ip": "52.219.169.118",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 56,
+    "first_seen_relative_seconds": 106.90512681007385,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 106.90512681007385
+      }
+    ]
+  },
+  "10.42.0.232:54100 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54100,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 25,
+    "first_seen_relative_seconds": 106.9388678073883,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 106.9388678073883
+      }
+    ]
+  },
+  "10.42.0.232:51402 <-> 15.197.251.9:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 51402,
+    "endpoint_b_ip": "15.197.251.9",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 25,
+    "first_seen_relative_seconds": 107.41167092323303,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 107.41167092323303
+      }
+    ]
+  },
+  "10.42.0.232:54104 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54104,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 108.6364209651947,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 108.6364209651947
+      }
+    ]
+  },
+  "10.42.0.232:54106 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54106,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 25,
+    "first_seen_relative_seconds": 109.73836183547974,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 109.73836183547974
+      }
+    ]
+  },
+  "10.42.0.232:54108 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54108,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 25,
+    "first_seen_relative_seconds": 117.75939393043518,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 117.75939393043518
+      }
+    ]
+  },
+  "10.42.0.232:54110 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 54110,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 9,
+    "first_seen_relative_seconds": 122.32512092590332,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 122.32512092590332
+      }
+    ]
+  },
+  "10.42.0.232:None <-> 10.42.0.243:None [IP_PROTO_1]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": null,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": null,
+    "target_ip": "10.42.0.232",
+    "packet_count": 12,
+    "first_seen_relative_seconds": 72.87826108932495,
+    "protocols_used": [
+      "ETH",
+      "ICMP",
+      "IP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > ICMP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 72.87826108932495
+      },
+      {
+        "file": "camera_pair.json",
+        "first_seen_relative_seconds": 122.5974109172821
+      }
+    ]
+  },
+  "10.42.0.17:57371 <-> 10.42.0.232:21 [TCP]": {
+    "endpoint_a_ip": "10.42.0.17",
+    "endpoint_a_port": 57371,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 21,
+    "target_ip": "10.42.0.232",
+    "packet_count": 1,
+    "first_seen_relative_seconds": 2.954334020614624,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 2.954334020614624
+      }
+    ]
+  },
+  "10.42.0.17:57375 <-> 10.42.0.232:21 [TCP]": {
+    "endpoint_a_ip": "10.42.0.17",
+    "endpoint_a_port": 57375,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 21,
+    "target_ip": "10.42.0.232",
+    "packet_count": 1,
+    "first_seen_relative_seconds": 3.8534979820251465,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 3.8534979820251465
+      }
+    ]
+  },
+  "10.42.0.17:57370 <-> 10.42.0.232:21 [TCP]": {
+    "endpoint_a_ip": "10.42.0.17",
+    "endpoint_a_port": 57370,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 21,
+    "target_ip": "10.42.0.232",
+    "packet_count": 6,
+    "first_seen_relative_seconds": 4.787971019744873,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "FTP",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > FTP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 4.787971019744873
+      }
+    ]
+  },
+  "10.42.0.17:57740 <-> 10.42.0.232:21 [TCP]": {
+    "endpoint_a_ip": "10.42.0.17",
+    "endpoint_a_port": 57740,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 21,
+    "target_ip": "10.42.0.232",
+    "packet_count": 38,
+    "first_seen_relative_seconds": 46.59203004837036,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "FTP",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > FTP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 46.59203004837036
+      }
+    ]
+  },
+  "10.42.0.232:40793 <-> 52.58.249.45:8883 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 40793,
+    "endpoint_b_ip": "52.58.249.45",
+    "endpoint_b_port": 8883,
+    "target_ip": "10.42.0.232",
+    "packet_count": 303,
+    "first_seen_relative_seconds": 14.203443050384521,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_sound.json",
+        "first_seen_relative_seconds": 14.203443050384521
+      },
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 55.746434926986694
+      }
+    ]
+  },
+  "10.42.0.232:6668 <-> 10.42.0.243:38624 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 6668,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 38624,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 55.944648027420044,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 55.944648027420044
+      }
+    ]
+  },
+  "10.42.0.232:44804 <-> 3.5.135.190:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 44804,
+    "endpoint_b_ip": "3.5.135.190",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 55.96231293678284,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 55.96231293678284
+      }
+    ]
+  },
+  "10.42.0.232:41268 <-> 255.255.255.255:6667 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 41268,
+    "endpoint_b_ip": "255.255.255.255",
+    "endpoint_b_port": 6667,
+    "target_ip": "10.42.0.232",
+    "packet_count": 13,
+    "first_seen_relative_seconds": 3.419119119644165,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_sound.json",
+        "first_seen_relative_seconds": 3.419119119644165
+      },
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 59.30188798904419
+      }
+    ]
+  },
+  "10.42.0.232:52640 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52640,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 25,
+    "first_seen_relative_seconds": 59.488019943237305,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 59.488019943237305
+      }
+    ]
+  },
+  "10.42.0.232:52642 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52642,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 62.93611693382263,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 62.93611693382263
+      }
+    ]
+  },
+  "10.42.0.232:52644 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52644,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 30,
+    "first_seen_relative_seconds": 66.55630803108215,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 66.55630803108215
+      }
+    ]
+  },
+  "10.42.0.232:52646 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52646,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 18,
+    "first_seen_relative_seconds": 66.63724493980408,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 66.63724493980408
+      }
+    ]
+  },
+  "10.42.0.232:52648 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52648,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 28,
+    "first_seen_relative_seconds": 68.61290001869202,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 68.61290001869202
+      }
+    ]
+  },
+  "10.42.0.232:52650 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52650,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 28,
+    "first_seen_relative_seconds": 68.8039939403534,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 68.8039939403534
+      }
+    ]
+  },
+  "10.42.0.232:55968 <-> 35.157.227.228:3478 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 55968,
+    "endpoint_b_ip": "35.157.227.228",
+    "endpoint_b_port": 3478,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 69.39290595054626,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 69.39290595054626
+      }
+    ]
+  },
+  "10.42.0.232:55968 <-> 10.42.0.243:60120 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 55968,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 60120,
+    "target_ip": "10.42.0.232",
+    "packet_count": 34,
+    "first_seen_relative_seconds": 69.52531909942627,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 69.52531909942627
+      }
+    ]
+  },
+  "10.42.0.232:40519 <-> 52.29.27.24:1443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 40519,
+    "endpoint_b_ip": "52.29.27.24",
+    "endpoint_b_port": 1443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 13,
+    "first_seen_relative_seconds": 69.65069699287415,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 69.65069699287415
+      }
+    ]
+  },
+  "10.42.0.232:53247 <-> 54.36.114.161:3478 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 53247,
+    "endpoint_b_ip": "54.36.114.161",
+    "endpoint_b_port": 3478,
+    "target_ip": "10.42.0.232",
+    "packet_count": 74,
+    "first_seen_relative_seconds": 69.65093994140625,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 69.65093994140625
+      }
+    ]
+  },
+  "10.42.0.232:52652 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52652,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 28,
+    "first_seen_relative_seconds": 70.23166394233704,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 70.23166394233704
+      }
+    ]
+  },
+  "10.42.0.232:55968 <-> 10.42.0.243:54853 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 55968,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 54853,
+    "target_ip": "10.42.0.232",
+    "packet_count": 6263,
+    "first_seen_relative_seconds": 0.004064083099365234,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "HIPERCONTRACER",
+      "IP",
+      "STUN",
+      "UDP",
+      "WG"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA",
+      "ETH > IP > UDP > HIPERCONTRACER",
+      "ETH > IP > UDP > STUN",
+      "ETH > IP > UDP > WG"
+    ],
+    "source_files": [
+      {
+        "file": "camera_sound.json",
+        "first_seen_relative_seconds": 0.004064083099365234
+      },
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.15499687194824
+      }
+    ]
+  },
+  "10.42.0.232:55968 <-> 84.104.3.181:60120 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 55968,
+    "endpoint_b_ip": "84.104.3.181",
+    "endpoint_b_port": 60120,
+    "target_ip": "10.42.0.232",
+    "packet_count": 12,
+    "first_seen_relative_seconds": 71.15500092506409,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.15500092506409
+      }
+    ]
+  },
+  "10.42.0.232:52654 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52654,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 71.23808407783508,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.23808407783508
+      }
+    ]
+  },
+  "10.42.0.232:55968 <-> 54.36.114.161:65428 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 55968,
+    "endpoint_b_ip": "54.36.114.161",
+    "endpoint_b_port": 65428,
+    "target_ip": "10.42.0.232",
+    "packet_count": 8,
+    "first_seen_relative_seconds": 71.25091600418091,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.25091600418091
+      }
+    ]
+  },
+  "10.42.0.232:48439 <-> 3.121.21.6:3478 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 48439,
+    "endpoint_b_ip": "3.121.21.6",
+    "endpoint_b_port": 3478,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 71.35200309753418,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.35200309753418
+      }
+    ]
+  },
+  "10.42.0.232:48439 <-> 10.42.0.243:45155 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 48439,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 45155,
+    "target_ip": "10.42.0.232",
+    "packet_count": 7,
+    "first_seen_relative_seconds": 71.41838693618774,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.41838693618774
+      }
+    ]
+  },
+  "10.42.0.232:48439 <-> 10.42.0.243:50016 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 48439,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 50016,
+    "target_ip": "10.42.0.232",
+    "packet_count": 7,
+    "first_seen_relative_seconds": 71.44036388397217,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.44036388397217
+      }
+    ]
+  },
+  "10.42.0.232:48439 <-> 84.104.3.181:45155 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 48439,
+    "endpoint_b_ip": "84.104.3.181",
+    "endpoint_b_port": 45155,
+    "target_ip": "10.42.0.232",
+    "packet_count": 7,
+    "first_seen_relative_seconds": 71.44143104553223,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.44143104553223
+      }
+    ]
+  },
+  "10.42.0.232:48439 <-> 57.129.34.13:64582 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 48439,
+    "endpoint_b_ip": "57.129.34.13",
+    "endpoint_b_port": 64582,
+    "target_ip": "10.42.0.232",
+    "packet_count": 7,
+    "first_seen_relative_seconds": 71.44394302368164,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.44394302368164
+      }
+    ]
+  },
+  "10.42.0.232:37157 <-> 3.127.130.81:1443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 37157,
+    "endpoint_b_ip": "3.127.130.81",
+    "endpoint_b_port": 1443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 15,
+    "first_seen_relative_seconds": 71.46425700187683,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.46425700187683
+      }
+    ]
+  },
+  "10.42.0.232:None <-> 57.129.34.13:None [IP_PROTO_1]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": null,
+    "endpoint_b_ip": "57.129.34.13",
+    "endpoint_b_port": null,
+    "target_ip": "10.42.0.232",
+    "packet_count": 7,
+    "first_seen_relative_seconds": 71.47601795196533,
+    "protocols_used": [
+      "ETH",
+      "ICMP",
+      "IP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > ICMP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.47601795196533
+      }
+    ]
+  },
+  "10.42.0.232:48010 <-> 57.129.34.13:3478 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 48010,
+    "endpoint_b_ip": "57.129.34.13",
+    "endpoint_b_port": 3478,
+    "target_ip": "10.42.0.232",
+    "packet_count": 36,
+    "first_seen_relative_seconds": 71.54331302642822,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 71.54331302642822
+      }
+    ]
+  },
+  "10.42.0.232:52656 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52656,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 28,
+    "first_seen_relative_seconds": 73.2847011089325,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 73.2847011089325
+      }
+    ]
+  },
+  "10.42.0.232:52658 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52658,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 74.57226395606995,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 74.57226395606995
+      }
+    ]
+  },
+  "10.42.0.232:6668 <-> 10.42.0.243:38694 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 6668,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 38694,
+    "target_ip": "10.42.0.232",
+    "packet_count": 54,
+    "first_seen_relative_seconds": 4.047944068908691,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "IPDC",
+      "TCP",
+      "_WS.MALFORMED"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > IPDC",
+      "ETH > IP > TCP > DATA > IPDC > _WS.MALFORMED",
+      "ETH > IP > TCP > DATA > IPDC > _WS.MALFORMED > IPDC > _WS.MALFORMED"
+    ],
+    "source_files": [
+      {
+        "file": "camera_sound.json",
+        "first_seen_relative_seconds": 4.047944068908691
+      },
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 74.86153197288513
+      }
+    ]
+  },
+  "10.42.0.232:59326 <-> 239.255.255.250:1900 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 59326,
+    "endpoint_b_ip": "239.255.255.250",
+    "endpoint_b_port": 1900,
+    "target_ip": "10.42.0.232",
+    "packet_count": 4,
+    "first_seen_relative_seconds": 78.33897304534912,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "SSDP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > SSDP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 78.33897304534912
+      }
+    ]
+  },
+  "10.42.0.232:52660 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52660,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 78.36235809326172,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 78.36235809326172
+      }
+    ]
+  },
+  "10.42.0.1:53 <-> 10.42.0.232:46306 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 53,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 46306,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 81.82470202445984,
+    "protocols_used": [
+      "DNS",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DNS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 81.82470202445984
+      }
+    ]
+  },
+  "10.42.0.232:55208 <-> 52.219.169.86:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 55208,
+    "endpoint_b_ip": "52.219.169.86",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 64,
+    "first_seen_relative_seconds": 81.88049292564392,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 81.88049292564392
+      }
+    ]
+  },
+  "10.42.0.1:53 <-> 10.42.0.232:53233 [UDP]": {
+    "endpoint_a_ip": "10.42.0.1",
+    "endpoint_a_port": 53,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 53233,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 81.90946197509766,
+    "protocols_used": [
+      "DNS",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DNS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 81.90946197509766
+      }
+    ]
+  },
+  "10.42.0.232:35402 <-> 99.83.166.254:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 35402,
+    "endpoint_b_ip": "99.83.166.254",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 26,
+    "first_seen_relative_seconds": 81.9481680393219,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 81.9481680393219
+      }
+    ]
+  },
+  "10.42.0.232:40067 <-> 3.66.126.37:8883 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 40067,
+    "endpoint_b_ip": "3.66.126.37",
+    "endpoint_b_port": 8883,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2,
+    "first_seen_relative_seconds": 83.30188703536987,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 83.30188703536987
+      }
+    ]
+  },
+  "10.42.0.232:52666 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52666,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 34,
+    "first_seen_relative_seconds": 84.19746398925781,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 84.19746398925781
+      }
+    ]
+  },
+  "10.42.0.232:52668 <-> 3.123.70.223:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 52668,
+    "endpoint_b_ip": "3.123.70.223",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 29,
+    "first_seen_relative_seconds": 89.99883890151978,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_reboot.json",
+        "first_seen_relative_seconds": 89.99883890151978
+      }
+    ]
+  },
+  "10.42.0.232:44193 <-> 10.42.0.243:46974 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 44193,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 46974,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2270,
+    "first_seen_relative_seconds": 0.0,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP",
+      "WG"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA",
+      "ETH > IP > UDP > STUN",
+      "ETH > IP > UDP > WG"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 0.0
+      }
+    ]
+  },
+  "10.42.0.232:35408 <-> 3.78.103.105:1443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 35408,
+    "endpoint_b_ip": "3.78.103.105",
+    "endpoint_b_port": 1443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 80,
+    "first_seen_relative_seconds": 0.05661606788635254,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 0.05661606788635254
+      }
+    ]
+  },
+  "10.42.0.232:41526 <-> 10.42.0.243:56125 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 41526,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 56125,
+    "target_ip": "10.42.0.232",
+    "packet_count": 39,
+    "first_seen_relative_seconds": 0.08874797821044922,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "STUN",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 0.08874797821044922
+      }
+    ]
+  },
+  "10.42.0.232:44689 <-> 63.177.1.197:1443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 44689,
+    "endpoint_b_ip": "63.177.1.197",
+    "endpoint_b_port": 1443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 78,
+    "first_seen_relative_seconds": 0.5003311634063721,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 0.5003311634063721
+      }
+    ]
+  },
+  "10.42.0.232:44364 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 44364,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 16,
+    "first_seen_relative_seconds": 1.2078289985656738,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 1.2078289985656738
+      }
+    ]
+  },
+  "10.42.0.232:40335 <-> 52.28.190.255:8883 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 40335,
+    "endpoint_b_ip": "52.28.190.255",
+    "endpoint_b_port": 8883,
+    "target_ip": "10.42.0.232",
+    "packet_count": 14,
+    "first_seen_relative_seconds": 1.5672070980072021,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 1.5672070980072021
+      }
+    ]
+  },
+  "10.42.0.232:59971 <-> 239.255.255.250:1900 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 59971,
+    "endpoint_b_ip": "239.255.255.250",
+    "endpoint_b_port": 1900,
+    "target_ip": "10.42.0.232",
+    "packet_count": 4,
+    "first_seen_relative_seconds": 2.010256052017212,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "SSDP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > SSDP"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 2.010256052017212
+      }
+    ]
+  },
+  "10.42.0.232:33508 <-> 255.255.255.255:6667 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 33508,
+    "endpoint_b_ip": "255.255.255.255",
+    "endpoint_b_port": 6667,
+    "target_ip": "10.42.0.232",
+    "packet_count": 4,
+    "first_seen_relative_seconds": 2.573254108428955,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "UDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 2.573254108428955
+      }
+    ]
+  },
+  "10.42.0.232:6668 <-> 10.42.0.243:45312 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 6668,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 45312,
+    "target_ip": "10.42.0.232",
+    "packet_count": 22,
+    "first_seen_relative_seconds": 3.744971990585327,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "IPDC",
+      "TCP",
+      "_WS.MALFORMED"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > IPDC",
+      "ETH > IP > TCP > DATA > IPDC > _WS.MALFORMED"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 3.744971990585327
+      }
+    ]
+  },
+  "10.42.0.17:63622 <-> 10.42.0.232:23 [TCP]": {
+    "endpoint_a_ip": "10.42.0.17",
+    "endpoint_a_port": 63622,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 23,
+    "target_ip": "10.42.0.232",
+    "packet_count": 19,
+    "first_seen_relative_seconds": 5.400968074798584,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TELNET"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > TELNET"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 5.400968074798584
+      }
+    ]
+  },
+  "10.42.0.17:8888 <-> 10.42.0.232:34568 [TCP]": {
+    "endpoint_a_ip": "10.42.0.17",
+    "endpoint_a_port": 8888,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 34568,
+    "target_ip": "10.42.0.232",
+    "packet_count": 12,
+    "first_seen_relative_seconds": 5.906654119491577,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA"
+    ],
+    "source_files": [
+      {
+        "file": "camera_settings.json",
+        "first_seen_relative_seconds": 5.906654119491577
+      }
+    ]
+  },
+  "10.42.0.232:55216 <-> 52.219.169.86:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 55216,
+    "endpoint_b_ip": "52.219.169.86",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 19,
+    "first_seen_relative_seconds": 23.523741960525513,
+    "protocols_used": [
+      "DATA",
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > TLS",
+      "ETH > IP > TCP > TLS"
+    ],
+    "source_files": [
+      {
+        "file": "camera_sound.json",
+        "first_seen_relative_seconds": 23.523741960525513
+      }
+    ]
+  }
+}

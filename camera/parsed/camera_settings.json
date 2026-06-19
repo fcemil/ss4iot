@@ -1,0 +1,214 @@
+{
+  "10.42.0.232:44193 <-> 10.42.0.243:46974 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 44193,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 46974,
+    "target_ip": "10.42.0.232",
+    "packet_count": 2270,
+    "first_seen_relative_seconds": 0.0,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "UDP",
+      "DATA",
+      "WG",
+      "STUN"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA",
+      "ETH > IP > UDP > WG",
+      "ETH > IP > UDP > STUN"
+    ]
+  },
+  "10.42.0.232:35408 <-> 3.78.103.105:1443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 35408,
+    "endpoint_b_ip": "3.78.103.105",
+    "endpoint_b_port": 1443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 80,
+    "first_seen_relative_seconds": 0.05661606788635254,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "DATA"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP > DATA",
+      "ETH > IP > TCP"
+    ]
+  },
+  "10.42.0.232:41526 <-> 10.42.0.243:56125 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 41526,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 56125,
+    "target_ip": "10.42.0.232",
+    "packet_count": 39,
+    "first_seen_relative_seconds": 0.08874797821044922,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "UDP",
+      "STUN"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > STUN"
+    ]
+  },
+  "10.42.0.232:44689 <-> 63.177.1.197:1443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 44689,
+    "endpoint_b_ip": "63.177.1.197",
+    "endpoint_b_port": 1443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 78,
+    "first_seen_relative_seconds": 0.5003311634063721,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "DATA"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP > DATA",
+      "ETH > IP > TCP"
+    ]
+  },
+  "10.42.0.232:44364 <-> 18.156.66.203:443 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 44364,
+    "endpoint_b_ip": "18.156.66.203",
+    "endpoint_b_port": 443,
+    "target_ip": "10.42.0.232",
+    "packet_count": 16,
+    "first_seen_relative_seconds": 1.2078289985656738,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP > TLS",
+      "ETH > IP > TCP"
+    ]
+  },
+  "10.42.0.232:40335 <-> 52.28.190.255:8883 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 40335,
+    "endpoint_b_ip": "52.28.190.255",
+    "endpoint_b_port": 8883,
+    "target_ip": "10.42.0.232",
+    "packet_count": 14,
+    "first_seen_relative_seconds": 1.5672070980072021,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TLS"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP > TLS",
+      "ETH > IP > TCP"
+    ]
+  },
+  "10.42.0.232:59971 <-> 239.255.255.250:1900 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 59971,
+    "endpoint_b_ip": "239.255.255.250",
+    "endpoint_b_port": 1900,
+    "target_ip": "10.42.0.232",
+    "packet_count": 4,
+    "first_seen_relative_seconds": 2.010256052017212,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "UDP",
+      "SSDP"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > SSDP"
+    ]
+  },
+  "10.42.0.232:33508 <-> 255.255.255.255:6667 [UDP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 33508,
+    "endpoint_b_ip": "255.255.255.255",
+    "endpoint_b_port": 6667,
+    "target_ip": "10.42.0.232",
+    "packet_count": 4,
+    "first_seen_relative_seconds": 2.573254108428955,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "UDP",
+      "DATA"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > UDP > DATA"
+    ]
+  },
+  "10.42.0.232:6668 <-> 10.42.0.243:45312 [TCP]": {
+    "endpoint_a_ip": "10.42.0.232",
+    "endpoint_a_port": 6668,
+    "endpoint_b_ip": "10.42.0.243",
+    "endpoint_b_port": 45312,
+    "target_ip": "10.42.0.232",
+    "packet_count": 22,
+    "first_seen_relative_seconds": 3.744971990585327,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "DATA",
+      "IPDC",
+      "_WS.MALFORMED"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA > IPDC",
+      "ETH > IP > TCP > DATA > IPDC > _WS.MALFORMED"
+    ]
+  },
+  "10.42.0.17:63622 <-> 10.42.0.232:23 [TCP]": {
+    "endpoint_a_ip": "10.42.0.17",
+    "endpoint_a_port": 63622,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 23,
+    "target_ip": "10.42.0.232",
+    "packet_count": 19,
+    "first_seen_relative_seconds": 5.400968074798584,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "TELNET"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP > TELNET",
+      "ETH > IP > TCP"
+    ]
+  },
+  "10.42.0.17:8888 <-> 10.42.0.232:34568 [TCP]": {
+    "endpoint_a_ip": "10.42.0.17",
+    "endpoint_a_port": 8888,
+    "endpoint_b_ip": "10.42.0.232",
+    "endpoint_b_port": 34568,
+    "target_ip": "10.42.0.232",
+    "packet_count": 12,
+    "first_seen_relative_seconds": 5.906654119491577,
+    "protocols_used": [
+      "ETH",
+      "IP",
+      "TCP",
+      "DATA"
+    ],
+    "protocol_stack_examples": [
+      "ETH > IP > TCP",
+      "ETH > IP > TCP > DATA"
+    ]
+  }
+}
